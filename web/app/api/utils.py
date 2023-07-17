@@ -1,7 +1,5 @@
-import os
 from django.db import models
 from django.db import connections
-from django.core.management import call_command
 
 
 def get_table_model_attrs_from_fields(fields):
